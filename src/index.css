@@ -1,7 +1,9 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "inter", sans-serif, Arial, Helvetica, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -32,9 +34,9 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
+h1 span {
   line-height: 1.1;
+  font-family: "press start 2P", sans-serif;
 }
 
 button {
@@ -44,7 +46,6 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -64,7 +65,7 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #f9f9f9;
-  }
+  button{
+  font-family: "inter", sans-serif;
+}
 }
