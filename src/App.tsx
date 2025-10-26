@@ -373,7 +373,6 @@ const colorClasses = {
 
 const CodeBlock: React.FC<{ code: string; language?: string }> = ({
   code,
-  language = "bash",
 }) => {
   const [copied, setCopied] = useState(false);
 
